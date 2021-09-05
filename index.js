@@ -75,4 +75,30 @@ function validate() {
           else if(dayValue == -0){
             alert("You were born on "+Day[6] + " and Your akan name is " +male[6]+"!");
           }
-    
+          break;
+    case "female":
+      if (dayValue == 1){
+        alert("You were born on "+Day[0] + " and Your akan name is  " +female[0]+"!");
+      }
+      else if(dayValue == 2){
+        alert("You were born on " +Day[1] + " and Your akan name is " +female[1]+"!");
+      }
+      else if(dayValue == 3){
+        alert("You were born on " +Day[2] + " and Your akan name is " +female[2]+"!");
+      }
+      else if(dayValue == 4){
+        alert("You were born on " +Day[3] + " and Your akan name is " +female[3]+"!");
+      }
+      else if(dayValue == 5){
+        alert("You were born on " +Day[4] + " and Your akan name is " +female[4]+"!");
+      }
+      else if(dayValue == 6){
+        alert("You were born on " +Day[5] + " and Your akan name is " + female[5]+"!");
+      }else if(dayValue == -0){
+        alert("You were born on " +Day[6] + " and Your akan name is " +female[6]+"!");
+      }
+    break
+    default:
+          
+  }
+}
