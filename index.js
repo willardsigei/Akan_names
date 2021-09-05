@@ -16,3 +16,19 @@ function validate() {
        document.myForm.month.focus() ;
        return false;
     }
+    else if( document.myForm.date.value == "" || isNaN( document.myForm.month.value ) || 
+    document.myForm.month.value.length != 2|| document.myForm.date.value > 31 || document.myForm.date.value <= 0) {
+       alert( "Invalid! Give valid date of birth!" );
+       document.myForm.day.focus() ;
+       return false;
+    }
+    else if(genders[0].checked==false && genders[1].checked==false ) {
+        alert("Check male or female");
+        return false;
+    }   
+    else{
+      return true ;
+    }
+    
+  }
+  
