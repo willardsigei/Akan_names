@@ -52,4 +52,27 @@ function validate() {
     else{
       return false;
     }
+    switch(gender){
+        case "male":
+          if (dayValue == 1){
+            alert("You were born on " +Day[0] + " and Your akan name is " +male[0]+"!");
+          }
+          else if(dayValue == 2){
+            alert("You were born on "+Day[1] + " and Your akan name is " +male[1]+"!");
+          }
+          else if(dayValue == 3){
+            alert("You were born on " +Day[2]+ " and Your akan name is " +male[2]+"!");
+          }
+          else if(dayValue == 4){
+            alert("You were born on "+Day[3] +  " and Your akan name is " +male[3]+"!");
+          }
+          else if(dayValue == 5){
+            alert("You were born on "+Day[4] +  " and Your akan name is " +male[4]+"!");
+          }
+          else if(dayValue == 6){
+            alert("You were born on "+Day[5] +  " and Your akan name is " +male[5]+"!");
+          }
+          else if(dayValue == -0){
+            alert("You were born on "+Day[6] + " and Your akan name is " +male[6]+"!");
+          }
     
